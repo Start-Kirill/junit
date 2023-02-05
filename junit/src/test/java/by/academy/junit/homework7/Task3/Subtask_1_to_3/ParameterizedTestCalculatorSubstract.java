@@ -1,4 +1,9 @@
-package by.academy.junit.homework7;
+/*
+ * Homework #7. Task #3
+ * 
+ * Kirill Starovoitov
+ */
+package by.academy.junit.homework7.Task3.Subtask_1_to_3;
 
 import java.util.Arrays;
 
@@ -7,6 +12,18 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
+import by.academy.junit.homework7.Task3.Calculator;
+
+/**
+ * Implementation of task#3 of Homework #7
+ * 
+ * Parameterized test of subtraction function of calculator
+ * 
+ * 
+ * @version 1.0 04 Feb 2023
+ * @author Kirill Starovoitov
+ *
+ */
 @RunWith(value = Parameterized.class)
 public class ParameterizedTestCalculatorSubstract extends Assert {
 
@@ -28,7 +45,7 @@ public class ParameterizedTestCalculatorSubstract extends Assert {
 
 	@Test
 	public void testSubstraction() {
-		assertEquals(expected, Calculator.substract(valueA, valueB), 0.000000000000001);
+		assertEquals(expected, Calculator.subtract(valueA, valueB), 0.000000000000001);
 	}
 
 }
