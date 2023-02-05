@@ -25,13 +25,13 @@ import by.academy.junit.homework7.Task3.Calculator;
  *
  */
 @RunWith(value = Parameterized.class)
-public class ParameterizedTestCalculatorSubstract extends Assert {
+public class ParameterizedTestCalculatorSubtract extends Assert {
 
 	private double valueA;
 	private double valueB;
 	private double expected;
 
-	public ParameterizedTestCalculatorSubstract(double valueA, double valueB, double expected) {
+	public ParameterizedTestCalculatorSubtract(double valueA, double valueB, double expected) {
 		super();
 		this.valueA = valueA;
 		this.valueB = valueB;

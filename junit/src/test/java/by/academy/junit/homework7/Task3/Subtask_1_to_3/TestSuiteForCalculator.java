@@ -19,7 +19,7 @@ import org.junit.runners.Suite;
  */
 @RunWith(Suite.class)
 @Suite.SuiteClasses({ ParameterizedTestCalculatorDivide.class, ParameterizedTestCalculatorMultiply.class,
-		ParameterizedTestCalculatorSubstract.class, ParameterizedTestCalculatorSum.class })
+		ParameterizedTestCalculatorSubtract.class, ParameterizedTestCalculatorSum.class })
 public class TestSuiteForCalculator {
 
 }
